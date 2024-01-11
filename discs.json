@@ -1,0 +1,32 @@
+[
+  {
+    "nome_album": "1",
+    "artista": "A",
+    "anno": "A1"
+  },
+  {
+    "nome_album": "2",
+    "artista": "B",
+    "anno": "B2"
+  },
+  {
+    "nome_album": "3",
+    "artista": "C",
+    "anno": "C3"
+  },
+  {
+    "nome_album": "4",
+    "artista": "D",
+    "anno": "D4"
+  },
+  {
+    "nome_album": "5",
+    "artista": "E",
+    "anno": "E5"
+  },
+  {
+    "nome_album": "6",
+    "artista": "F",
+    "anno": "F6"
+  }
+]

@@ -13,7 +13,18 @@
   </head>
   <body>
     <div id="app">
-      Prova
+      <header class="text-center my-3">
+        <h1>I miei dischi</h1>
+      </header>
+      <main>
+        <ul>
+          <li v-for="disc in discs">
+            <div>{{ disc.nome_album }}</div>
+            <div>{{ disc.artista }}</div>
+            <div>{{ disc.anno }}</div>
+          </li>
+        </ul>
+      </main>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
