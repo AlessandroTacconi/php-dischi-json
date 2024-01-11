@@ -1,32 +1,38 @@
 [
   {
-    "nome_album": "1",
-    "artista": "A",
-    "anno": "A1"
+    "cover": "img/Playboicarti.jpg",
+    "nome_album": "Whole Lotta Red",
+    "artista": "Playboi Carti",
+    "anno": "2020"
   },
   {
-    "nome_album": "2",
-    "artista": "B",
-    "anno": "B2"
+    "cover": "img/orange.jpg",
+    "nome_album": "Channel Orange",
+    "artista": "Frank Ocean",
+    "anno": "2012"
   },
   {
-    "nome_album": "3",
-    "artista": "C",
+    "cover": "img/igor.jpg",
+    "nome_album": "Igor",
+    "artista": "Tyler, the Creator",
     "anno": "C3"
   },
   {
-    "nome_album": "4",
-    "artista": "D",
+    "cover": "img/Cristiediavoli.jpg",
+    "nome_album": "Cristi e Diavoli",
+    "artista": "Lovegang126",
     "anno": "D4"
   },
   {
-    "nome_album": "5",
-    "artista": "E",
+    "cover": "img/ye.jpg",
+    "nome_album": "YE",
+    "artista": "Kanye West",
     "anno": "E5"
   },
   {
-    "nome_album": "6",
-    "artista": "F",
+    "cover": "img/sigle.jpg",
+    "nome_album": "Le Sigle Più Belle",
+    "artista": "Cristina D'Avena",
     "anno": "F6"
   }
 ]
