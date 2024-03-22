@@ -19,11 +19,11 @@
       </header>
         <main class="container">
           <div class="row">
-            <div v-for="disc in discs" class="col-md-4">
+            <div v-for="disc in discs" class="col-md-4 g-3">
               <div class="card">
-                <img :src="disc.cover" :alt="disc.nome_album">
+                <img :src="disc.cover" :alt="disc.nome_album" class="card-img">
                 <div class="card-body">
-                  <div>{{ disc.nome_album }}</div>
+                  <h3>{{ disc.nome_album }}</h3>
                   <div>{{ disc.artista }}</div>
                   <div>{{ disc.anno }}</div>
                 </div>

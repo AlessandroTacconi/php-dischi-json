@@ -1,3 +1,68 @@
 [v-cloak] {
   display: none;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(4, 4, 94);
+  margin: 0;
+  padding: 20px;
+  max-height: 100vh;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  color: rgb(25, 25, 95);
+  background-color: rgb(255, 168, 239);
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  color: aliceblue;
+  font-weight: bold;
+  border-color: #b8cadb;
+  height: 500px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: rgb(25, 25, 95);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body div {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
